@@ -1,0 +1,156 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px 10px 9px 10px;
+}
+nav span {
+  padding: 20px 10px;
+}
+
+/* Main Section */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 69px;
+}
+
+/* Mission Section */
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+}
+
+/* Selection Section */
+
+.middle  {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  width: 1000px;
+  height: 700px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* Location Section */
+
+#location {
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  width: 280px;
+  height: 260px;
+}
+
+/* Contact Section */
+
+.contact {
+  height: 200px;
+}
+
+/* Footer */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
